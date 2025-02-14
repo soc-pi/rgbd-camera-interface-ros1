@@ -1,0 +1,17 @@
+camera:
+  resolution:
+    width: 1280
+    height: 720
+  fps: 30
+  exposure: 100
+  gain: 1.0
+
+stereo:
+  baseline: 120.0 # mm
+  calibration_file: "package://rgbd_camera_interface/config/calibration.yaml"
+
+streaming:
+  auto_exposure: true
+  auto_white_balance: true
+  depth_mode: "quality" # quality, performance
+  disparity_range: [ 0, 128 ]

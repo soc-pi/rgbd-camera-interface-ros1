@@ -1,0 +1,13 @@
+# Ignore build directory
+build/
+
+# Ignore ROS logs
+logs/
+
+# Ignore executables
+*.exe
+*.out
+*.o
+.idea/
+cmake-build-debug/
+.vscode/

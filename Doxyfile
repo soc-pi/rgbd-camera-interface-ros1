@@ -1,0 +1,12 @@
+PROJECT_NAME           = "RGBD Camera Interface"
+PROJECT_BRIEF         = "A C++ interface for stereo RGBD cameras"
+OUTPUT_DIRECTORY      = doc
+GENERATE_HTML         = YES
+GENERATE_LATEX        = NO
+EXTRACT_ALL           = YES
+EXTRACT_PRIVATE       = YES
+EXTRACT_STATIC        = YES
+RECURSIVE             = YES
+INPUT                 = include src
+FILE_PATTERNS        = *.cpp *.h
+EXCLUDE_PATTERNS     = */build/* */test/*
